@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-vehicles = pd.read_csv('C:/Users/rober/OneDrive/Documents/sprint_4_project/vehicles_us.csv')
+vehicles = pd.read_csv('vehicles_us.csv')
 
 # Function to plot histograms based on condition
 def plot_histograms(df, conditions):
